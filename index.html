@@ -99,6 +99,7 @@
     </div>
   </section><!-- End Intro Section -->
 
+ 
   <main id="main">
 
     <!-- ======= About Section ======= -->
@@ -177,7 +178,70 @@
         </div>
 
       </div>
+      
     </section><!-- End About Section -->
+     <!-- Running banner  -->
+  <div class=rban>
+    <style>
+     .rban {
+         color: #fff;
+     }
+.scroll-left {
+height: 50px;
+overflow: hidden;
+position: relative;
+background-color: #004a99;
+}
+.scroll-left p {
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0;
+line-height: 50px;
+text-align: center;
+
+/* Starting position */
+-moz-transform:translateX(100%);
+-webkit-transform:translateX(100%);
+transform:translateX(100%);
+/* Apply animation to this element */
+-moz-animation: scroll-left 15s linear infinite;
+-webkit-animation: scroll-left 15s linear infinite;
+animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+0%   { -moz-transform: translateX(100%); }
+100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+0%   { -webkit-transform: translateX(100%); }
+100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+0%   {
+-moz-transform: translateX(100%); /* Browser bug fix */`
+-webkit-transform: translateX(100%); /* Browser bug fix */
+transform: translateX(100%);
+}
+100% {
+-moz-transform: translateX(-100%); /* Browser bug fix */
+-webkit-transform: translateX(-100%); /* Browser bug fix */
+transform: translateX(-100%);
+     }
+/* #dalink {
+font-size: 20px;
+     
+     } */
+
+}
+</style>
+<div class="scroll-left">
+    <p id="dalink">50% off for membership renewal going on. Contact us to know more details!</p>
+</div>
+</div>
+<!--Eend of running banner thingy -->
+
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="section-bg">
@@ -240,6 +304,8 @@
 
       </div>
     </section><!-- End Services Section -->
+
+    
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us">
