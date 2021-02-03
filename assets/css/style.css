@@ -372,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Intro Section
+# Intro Section background: url("https://ieeespices2022.com/assets/img/intro-bg-min.jpg") center bottom no-repeat;
 --------------------------------------------------------------*/
 #intro {
   width: 100%;
