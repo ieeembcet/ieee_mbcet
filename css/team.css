@@ -1,13 +1,18 @@
 /* Style the tab */
 .tab {
   align-items: center;
+  align-self: center;
+  
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: white;
+  color: white;
+
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  background-color: none;
+  background-color: white;
+
   float: left;
   border: none;
   outline: none;
