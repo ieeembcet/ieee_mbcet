@@ -15,6 +15,8 @@ function openSociety(evt, society) {
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(society).style.display = "block";
+  document.getElementById(society).style.display = "flex";
+  document.getElementById(society).style["justify-content"] = "center";
+
   evt.currentTarget.className += " active";
 }
