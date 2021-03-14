@@ -1,35 +1,36 @@
 /* Style the tab */
 .tab {
-  align-items: center;
-  align-self: center;
-
+  display: flex ;
+  justify-content:center;
   overflow: hidden;
   background-color: white;
-  color: white;
-
 }
 
-#team.row{
+#team.row {
+  display: flex ;
+  justify-content:center;
   align-items: center;
-  align-self: center;
-  text-align: center;
+  overflow: hidden;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: white;
-
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
   float: left;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  transition: 0.3s;
+  transition: 0.0001s;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  color:red;
+  color: red;
 }
 
 /* Create an active/current tablink class */
@@ -39,12 +40,25 @@
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
+  display: none ;
+  justify-content: center;
+  align-items: center;
   padding: 6px 12px;
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
-
+  animation: fadeEffect 1s;
+  /* Fading effect takes 1 second */
 }
+
+.member{
+  display: flex;
+  justify-content:center;
+}
+
 @keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
