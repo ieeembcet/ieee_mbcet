@@ -1211,6 +1211,19 @@ section {
   transition: all 0.4s ease-in-out;
 }
 
+/* Blog Section
+--------------------------------*/
+#blog {
+  background-color : #004A99;
+  padding: 60px 0;
+  color : #fff;
+
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+#blog .section-header h3, #blog .section-header p {
+  color: #fff;
+}
 /* Contact Section
 --------------------------------*/
 #contact {
