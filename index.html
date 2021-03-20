@@ -723,13 +723,15 @@ font-size: 20px;
     </div>
   </footer>--><!-- End Footer -->
 
+    
+  
   <!-- ======= JS ======= -->
-
+<!-- url of the previous sheets integration : https://script.google.com/macros/s/AKfycbzU_1usqxz8x0nvv8ZRXFZRqJvANaoqOfHLu2qu/exec -->
   <script>
     $("#submit-form").submit((e)=>{
         e.preventDefault()
         $.ajax({
-            url:"https://script.google.com/macros/s/AKfycbzU_1usqxz8x0nvv8ZRXFZRqJvANaoqOfHLu2qu/exec",
+            url:"https://script.google.com/macros/s/AKfycbwfmyzYar5IDSMBfl-VcVEIOmkjk8P8JbCyl3kh4Lnqg8z0JBqAn3ZCAzJzM-ywDZnX/exec",
             data:$("#submit-form").serialize(),
             method:"post",
             success:function (response){
