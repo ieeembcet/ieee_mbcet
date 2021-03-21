@@ -682,7 +682,7 @@ font-size: 20px;
                 </div>
                 <div class="mb-3">
                   <div class="loading">Loading</div>
-                  <div class="error-message"></div>
+                  <!--<div class="error-message"></div>-->
                   <div class="sent-message">Your message has been sent. Thank you!</div>
                 </div>
                 <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
@@ -770,6 +770,7 @@ font-size: 20px;
   </footer>-->
     <!-- End Footer -->
 
+<<<<<<< HEAD
     <!-- ======= JS ======= -->
 
     <script>
@@ -788,6 +789,28 @@ font-size: 20px;
             alert("Something Error")
 
           }
+=======
+    
+  
+  <!-- ======= JS ======= -->
+<!-- url of the previous sheets integration : https://script.google.com/macros/s/AKfycbzU_1usqxz8x0nvv8ZRXFZRqJvANaoqOfHLu2qu/exec -->
+  <script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbwF3mQBXXDJDlzKHgUjmsqYPYYEC-4nbku4Y3D_IUL8PblLr_xNccnx6BRiJKqA0EDm/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Form submitted successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+>>>>>>> 8279b34f74e323a89b0f84b51e886a52b5081ba1
         })
       })
     </script>
