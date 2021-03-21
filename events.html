@@ -32,14 +32,17 @@
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8W0MV8TLTX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8W0MV8TLTX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-8W0MV8TLTX');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-8W0MV8TLTX');
+  </script>
 </head>
 
 <body>
@@ -91,149 +94,241 @@
 
 
 
-      <!-- ======= Why Us Section ======= -->
-      <section id="why-us" style="background-color: white;">
-        <div class="container" data-aos="fade-up">
-          <header class="section-header">
-            <h3 style="color: black;">Events</h3>
-            <p style="color: black;">We have some solid reasons which will help you to decide whether to join us or not. Just to brief it out, IEEE MBCET is an amazing and unique experience, that cannot be expressed through words! Here are some of the exceptional stuffs</p>
-          </header>
-
-          <div class="row row-eq-height justify-content-center">
-
-            <!--Latest Event-->
-
-            <div class="col-lg-4 mb-4" >
-              <div class="card" style="padding-top: 0px;">
-                  <img style="padding-top: 0px;"
-                    src="assets/RecentEventImage/rasquiz.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Robotics Quiz</h5>
-                    <p class="card-text">
-                      Join this amazing quiz event on Robotics : Science and Movies, exclusively for the Baselians. The quiz will be conducted on 24th January 2021.
-                    </p>
-                    <!-- <a href="/inner_event.html" class="btn btn-primary">Know More</a> -->
-                  </div>
-                </div>
-          </div>
+  <!-- ======= Events Section ======= -->
+  <section id="why-us" style="background-color: white;">
+    <div class="container" data-aos="fade-up">
+      <header class="section-header">
+        <h3 style="color: black;">Events</h3>
+        <p style="color: black;">We have some solid reasons which will help you to decide whether to join us or not. Just to brief it out, IEEE MBCET is an amazing and unique experience, that cannot be expressed through words! Here are some of the
+          exceptional stuffs</p>
 
 
+      </header>
 
-            <!---->
+      <!-- Tab links -->
+      <div class="tab">
+        <button class="tablinks active" onclick="openYear(event, '2021')">2021-22</button>
+        <button class="tablinks" onclick="openYear(event, '2020')">2020-21</button>
+      </div>
 
-            <div class="col-lg-4 mb-4" >
-              <div class="card" style="padding-top: 0px;">
-                  <img style="padding-top: 0px;"
-                    src="assets/RecentEventImage/circuit_embs.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Circuit Designing competition</h5>
-                    <p class="card-text">
-                      Register now to take part in this amazing circuit designing contest. Get it done within the time limit and win exciting rewards.
-                    </p>
-                    <!-- <a href="/inner_event.html" class="btn btn-primary">Register Now</a> -->
-                  </div>
-                </div>
-          </div>
+      <!-- Tab content -->
+      <div id="2021" class="tabcontent" style="display:block;">
+        <div class="row row-eq-height justify-content-center">
 
-            <div class="col-lg-4 mb-4" >
-                <div class="card" style="padding-top: 0px;">
-                    <img style="padding-top: 0px;"
-                      src="assets/RecentEventImage/WeWriteWeInnovate.jpg"
-                      class="card-img-top"
-                      alt="..."
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">We Write, We Innovate</h5>
-                      <p class="card-text">
-                        Join in for one of a kind event in which you will be able to elaborate and think over your ideas, on 7th December 2020 from 5:00pm.
-                      </p>
-                      <!-- <a href="https://bit.ly/tech_article" class="btn btn-primary">Register Now</a> -->
-                    </div>
-                  </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img style="padding-top: 0px;" src="assets/Events2021/women-empowerment.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Talk on Women Empowerment</h5>
+                <p class="card-text">
+                  As a part of International Womens Day , WSU MBCET and IEEE WIE MBCET 💫 invites you to join in the talk session by the most eminent and multifaceted personality Dr Divya S Iyer, IAS.
+                </p>
+                <!-- <a href="/inner_event.html" class="btn btn-primary">Register Now</a> -->
+              </div>
             </div>
-
-            <div class="col-lg-4 mb-4">
-                <div class="card"  style="padding-top: 0px;">
-                    <img
-                      src="assets/RecentEventImage/WantrepreneurToENtrepreneur.jpg"
-                      class="card-img-top"
-                      alt="..."
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">Wantrepreneur to Entrepreneur</h5>
-                      <p class="card-text">
-                        Join in for an amazing session led by Aadra Chandra Mouli on the topic of entrepreneruship and related things.
-                      </p>
-
-                      <!-- <a href="#!" class="btn btn-primary">Register Now</a> -->
-                    </div>
-                  </div>
-            </div>
-
-            <div class="col-lg-4 mb-4">
-                <div class="card"  style="padding-top: 0px;">
-                    <img
-                      src="assets/RecentEventImage/EnviorontMentalTechnologies.jpg"
-                      class="card-img-top"
-                      alt="..."
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">Environmental Technologies-Sustainable and Strong</h5>
-                      <p class="card-text">
-                        Join us to know how to go green in engineering on 21st Nov, 2020 at 5:00pm.
-                      </p>
-                      <!-- <a href="http://bit.ly/_Eco_tech_" class="btn btn-primary">Register Now</a> -->
-                    </div>
-                  </div>
-            </div>
-
-            <div class="col-lg-4 mb-4">
-              <div class="card"  style="padding-top: 0px;">
-                  <img
-                    src="assets/RecentEventImage/vocalize.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Web Dev using HTML & CSS</h5>
-                    <p class="card-text">
-
-                    </p>
-                    <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
-                  </div>
-                </div>
           </div>
 
           <div class="col-lg-4 mb-4">
-            <div class="card"  style="padding-top: 0px;">
-                <img
-                  src="assets/RecentEventImage/Angular101.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Angular 101</h5>
-                  <p class="card-text">
-
-                  </p>
-                  <!-- <a href="https://angular.ieeesbmbcet.in" class="btn btn-primary">Register Now</a> -->
-                </div>
+            <div class="card" style="padding-top: 0px;">
+              <img style="padding-top: 0px;" src="assets/Events2021/wie-can.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Wie Can</h5>
+                <p class="card-text">
+                  Are you good at probing ? Do you think you can find solution for a problem. Women face problems in the society in various domains.If you have an answer to any of them, articulate your thoughts as a presentation.
+                </p>
+                <!-- <a href="/inner_event.html" class="btn btn-primary">Register Now</a> -->
               </div>
-        </div>
+            </div>
+          </div>
 
-        <div class="col-lg-4 mb-4">
-          <div class="card"  style="padding-top: 0px;">
-              <img
-                src="assets/RecentEventImage/signova20.jpg"
-                class="card-img-top"
-                alt="..."
-              />
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img style="padding-top: 0px;" src="assets/Events2021/Cognizance.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Cognizance</h5>
+                <p class="card-text">
+                  IEEE WIE and IEEE RAS of IEEE SB MBCET brings before you a science quiz competition in accordance with science week celebrated from 22 February to 28 February putting your knowledge to test.
+                </p>
+                <!-- <a href="/inner_event.html" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img style="padding-top: 0px;" src="assets/Events2021/photo-contest-ieee-1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Iridescent</h5>
+                <p class="card-text">
+                  IEEE PES and EMBS of IEEE SBC MBCET collaborates to conduct a Photography Contest 📸 as a part of Science Week Celebrations. All the entries has been posted on our <a class="ig_tag" href="https://www.instagram.com/ieeesbmbcet/"> Instagram page (@ieeesbmbcet).</a>
+                </p>
+                <!-- <a href="/inner_event.html" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img style="padding-top: 0px;" src="assets/Events2021/elysian.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Elysian</h5>
+                <p class="card-text">
+                  IEEE Computer Society and SIGHT of IEEE MBCET SB welcome you all to, an article writing competition - ELYSIAN
+                </p>
+                <!-- <a href="/inner_event.html" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img style="padding-top: 0px;" src="assets/Events2021/Agm.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Annual General Meeting 2021</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="/inner_event.html" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div id="2020" class="tabcontent">
+        <div class="row row-eq-height justify-content-center">
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img style="padding-top: 0px;" src="assets/Events2020/Issues in RealTime System.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Issues In Real-Time System</h5>
+                <p class="card-text">
+                  Department of Computer Science and Engineering and IEEE Computer Society of MBCET SB welcomes you all to a talk on topic - Issues in 𝐑𝐞𝐚𝐥-𝐓𝐢𝐦𝐞 𝐒𝐲𝐬𝐭𝐞𝐦𝐬.
+                </p>
+                <!-- <a href="/inner_event.html" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img style="padding-top: 0px;" src="assets/Events2020/shrieeek.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">shrIEEk</h5>
+                <p class="card-text">
+                  shrIEEk is a flagship event of IEEE SB MBCET exclusively for First years. It was a 2 day event filled with fun activities and informative sessions.
+                </p>
+                <!-- <a href="/inner_event.html" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img style="padding-top: 0px;" src="assets/Events2020/rasquiz.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Robotics Quiz</h5>
+                <p class="card-text">
+                  Join this amazing quiz event on Robotics : Science and Movies, exclusively for the Baselians. The quiz will be conducted on 24th January 2021.
+                </p>
+                <!-- <a href="/inner_event.html" class="btn btn-primary">Know More</a> -->
+              </div>
+            </div>
+          </div>
+
+
+
+          <!---->
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img style="padding-top: 0px;" src="assets/Events2020/circuit_embs.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Circuit Designing competition</h5>
+                <p class="card-text">
+                  Register now to take part in this amazing circuit designing contest. Get it done within the time limit and win exciting rewards.
+                </p>
+                <!-- <a href="/inner_event.html" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img style="padding-top: 0px;" src="assets/Events2020/WeWriteWeInnovate.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">We Write, We Innovate</h5>
+                <p class="card-text">
+                  Join in for one of a kind event in which you will be able to elaborate and think over your ideas, on 7th December 2020 from 5:00pm.
+                </p>
+                <!-- <a href="https://bit.ly/tech_article" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/WantrepreneurToENtrepreneur.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Wantrepreneur to Entrepreneur</h5>
+                <p class="card-text">
+                  Join in for an amazing session led by Aadra Chandra Mouli on the topic of entrepreneruship and related things.
+                </p>
+
+                <!-- <a href="#!" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/EnviorontMentalTechnologies.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Environmental Technologies-Sustainable and Strong</h5>
+                <p class="card-text">
+                  Join us to know how to go green in engineering on 21st Nov, 2020 at 5:00pm.
+                </p>
+                <!-- <a href="http://bit.ly/_Eco_tech_" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/vocalize.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Web Dev using HTML & CSS</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/Angular101.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Angular 101</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="https://angular.ieeesbmbcet.in" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/signova20.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">SIGNOVA'20</h5>
                 <p class="card-text">
@@ -242,303 +337,238 @@
                 <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
               </div>
             </div>
-      </div>
+          </div>
 
-      <div class="col-lg-4 mb-4">
-        <div class="card"  style="padding-top: 0px;">
-            <img
-              src="assets/RecentEventImage/robotrIEEEx.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">RobotrIEEEx</h5>
-              <p class="card-text">
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/robotrIEEEx.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">RobotrIEEEx</h5>
+                <p class="card-text">
 
-              </p>
-              <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
             </div>
           </div>
-    </div>
 
-    <div class="col-lg-4 mb-4">
-      <div class="card"  style="padding-top: 0px;">
-          <img
-            src="assets/RecentEventImage/espectro.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">ESPECTRO</h5>
-            <p class="card-text">
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/espectro.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">ESPECTRO</h5>
+                <p class="card-text">
 
-            </p>
-            <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
           </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/15PracticalUse.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Practical Use of Technology in Time of Floods</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/tech2.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">TechVistaara</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/Patrick.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Stories of Fitting in and Standing Out</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/Health.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Walk to Health</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/Get the git.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Get the Git</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/genesis.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Genesis</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/canva1.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Graphic Designing with Canva</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/What Next.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">What Next?</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/chasse.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Chasse Au Tresor</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/WITH HER 2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">With Her</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/altered.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Altered</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="https://altered.splashthat.com" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/Mental health.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Mental Health During Lockdown</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/quiz_poster.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Techsortium Quiz - 2020</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/Python.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Python Coding Competition</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" style="padding-top: 0px;">
+              <img src="assets/Events2020/AGM Invitation.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Annual General Meeting 2020</h5>
+                <p class="card-text">
+
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Know More</a> -->
+              </div>
+            </div>
+          </div>
+
         </div>
+
+
+      </div>
+
   </div>
-
-  <div class="col-lg-4 mb-4">
-    <div class="card"  style="padding-top: 0px;">
-        <img
-          src="assets/RecentEventImage/15PracticalUse.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Practical Use of Technology in Time of Floods</h5>
-          <p class="card-text">
-
-          </p>
-          <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
-        </div>
-      </div>
-</div>
-
-<div class="col-lg-4 mb-4">
-  <div class="card"  style="padding-top: 0px;">
-      <img
-        src="assets/RecentEventImage/tech2.jpeg"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">TechVistaara</h5>
-        <p class="card-text">
-
-        </p>
-        <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
-      </div>
-    </div>
-</div>
-
-<div class="col-lg-4 mb-4">
-  <div class="card"  style="padding-top: 0px;">
-      <img
-        src="assets/RecentEventImage/Patrick.jpeg"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">Stories of Fitting in and Standing Out</h5>
-        <p class="card-text">
-
-        </p>
-        <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
-      </div>
-    </div>
-</div>
-
-<div class="col-lg-4 mb-4">
-  <div class="card"  style="padding-top: 0px;">
-      <img
-        src="assets/RecentEventImage/Health.jpeg"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">Walk to Health</h5>
-        <p class="card-text">
-
-        </p>
-        <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
-      </div>
-    </div>
-</div>
-
-<div class="col-lg-4 mb-4">
-  <div class="card"  style="padding-top: 0px;">
-      <img
-        src="assets/RecentEventImage/Get the git.jpeg"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">Get the Git</h5>
-        <p class="card-text">
-
-        </p>
-        <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
-      </div>
-    </div>
-</div>
-
-
-<div class="col-lg-4 mb-4">
-  <div class="card"  style="padding-top: 0px;">
-      <img
-        src="assets/RecentEventImage/genesis.jpg"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">Genesis</h5>
-        <p class="card-text">
-
-        </p>
-        <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
-      </div>
-    </div>
-</div>
-
-<div class="col-lg-4 mb-4">
-  <div class="card"  style="padding-top: 0px;">
-      <img
-        src="assets/RecentEventImage/canva1.jpeg"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">Graphic Designing with Canva</h5>
-        <p class="card-text">
-
-        </p>
-        <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
-      </div>
-    </div>
-</div>
-
-<div class="col-lg-4 mb-4">
-  <div class="card"  style="padding-top: 0px;">
-      <img
-        src="assets/RecentEventImage/What Next.jpg"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">What Next?</h5>
-        <p class="card-text">
-
-        </p>
-        <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
-      </div>
-    </div>
-</div>
-
-<div class="col-lg-4 mb-4">
-  <div class="card"  style="padding-top: 0px;">
-      <img
-        src="assets/RecentEventImage/chasse.jpg"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">Chasse Au Tresor</h5>
-        <p class="card-text">
-
-        </p>
-        <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
-      </div>
-    </div>
-</div>
-
-<div class="col-lg-4 mb-4">
-  <div class="card"  style="padding-top: 0px;">
-      <img
-        src="assets/RecentEventImage/WITH HER 2.jpg"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">With Her</h5>
-        <p class="card-text">
-
-        </p>
-        <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
-      </div>
-    </div>
-</div>
-
-<div class="col-lg-4 mb-4">
-  <div class="card"  style="padding-top: 0px;">
-      <img
-        src="assets/RecentEventImage/altered.jpg"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">Altered</h5>
-        <p class="card-text">
-
-        </p>
-        <!-- <a href="https://altered.splashthat.com" class="btn btn-primary">Register Now</a> -->
-      </div>
-    </div>
-</div>
-
-<div class="col-lg-4 mb-4">
-  <div class="card"  style="padding-top: 0px;">
-      <img
-        src="assets/RecentEventImage/Mental health.jpeg"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">Mental Health During Lockdown</h5>
-        <p class="card-text">
-
-        </p>
-        <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
-      </div>
-    </div>
-</div>
-
-
-<div class="col-lg-4 mb-4">
-  <div class="card"  style="padding-top: 0px;">
-      <img
-        src="assets/RecentEventImage/quiz_poster.png"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">Techsortium Quiz - 2020</h5>
-        <p class="card-text">
-
-        </p>
-        <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
-      </div>
-    </div>
-</div>
-
-<div class="col-lg-4 mb-4">
-  <div class="card"  style="padding-top: 0px;">
-      <img
-        src="assets/RecentEventImage/Python.jpeg"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">Python Coding Competition</h5>
-        <p class="card-text">
-
-        </p>
-        <!-- <a href="#" class="btn btn-primary">Register Now</a> -->
-      </div>
-    </div>
-</div>
-
-<div class="col-lg-4 mb-4">
-  <div class="card"  style="padding-top: 0px;">
-      <img
-        src="assets/RecentEventImage/AGM Invitation.jpg"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">Annual General Meeting 2020</h5>
-        <p class="card-text">
-
-        </p>
-        <!-- <a href="#" class="btn btn-primary">Know More</a> -->
-      </div>
-    </div>
-</div>
-
-          </div>
-
-        </div>
-      </section><!-- End Why Us Section -->
+  </section><!-- End Why Us Section -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -598,38 +628,38 @@
         &copy; Copyright <strong>NewBiz</strong>. All Rights Reserved
       </div>
       <div class="credits">-->
-        <!--
+    <!--
         All the links in the footer should remain intact.
         You can delete the links only if you purchased the pro version.
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
       -->
-        <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-  </footer>--><!-- End Footer -->
+  </footer>-->
+    <!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 
-  <!-- Team JS Files -->
-  <script type="text/javascript" src="js/events.js">
+    <!-- Team JS Files -->
+    <script type="text/javascript" src="js/events.js">
+    </script>
+      </body>
 
-
-</body>
-
-</html>
+      </html>
