@@ -40,16 +40,14 @@
 /* Style the tab content */
 .tabcontent {
   display: none ;
-  justify-content: center;
-  align-items: center;
   padding: 6px 12px;
   animation: fadeEffect 1s;
   /* Fading effect takes 1 second */
 }
 
-.member{
-  display: flex;
-  justify-content:center;
+#team .member{
+  display: block;
+  text-align: center;
 }
 
 @keyframes fadeEffect {
