@@ -752,7 +752,7 @@ section {
 }
 
 #why-us .card:hover {
-  background: #003b7a;
+  background: #000;
   border-color: #003b7a;
 }
 
@@ -1215,10 +1215,24 @@ section {
 --------------------------------*/
 #blog {
   background-color : #004A99;
-  padding: 60px 0;
+  padding: 60px 200px ;
   color : #fff;
 
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+#blog .blogcard{
+  padding-top: 30px;
+}
+
+.blog-title{
+  color : #fff;
+
+}
+
+ .blog-title:hover{
+  color : #C6C8C3;
+
 }
 
 #blog .section-header h3, #blog .section-header p {
