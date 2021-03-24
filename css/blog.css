@@ -8,3 +8,13 @@
     text-align: justify;
     padding: 20px 10%;
 }
+
+.blog-img1 {
+    float: right;
+    margin: 0 0 0 25px;
+}
+
+.blog-img2 {
+    float: left;
+    margin: 0 25px 0 0px;
+}
