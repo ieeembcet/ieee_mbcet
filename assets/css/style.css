@@ -406,9 +406,10 @@ h6 {
 --------------------------------------------------------------*/
 
 #intro {
+    margin-top: 5%;
     width: 100%;
     position: relative;
-    background: url("../img/intro-bg.png") center bottom no-repeat;
+    background: url("../img/banner-web.png") center bottom no-repeat;
     background-size: cover;
     padding: 200px 0 120px 0;
 }
@@ -1177,6 +1178,10 @@ section {
     position: relative;
     border-radius: 50%;
     overflow: hidden;
+}
+
+#team .team-hl {
+    text-decoration: underline;
 }
 
 #team .member .member-info {
