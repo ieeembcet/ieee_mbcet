@@ -1336,16 +1336,16 @@ section {
 
 #contact .contact-img{
     align-self:center; 
-    height: 300px;
-    padding-left:15%;
+    height: 500px;
+    padding-left:1%;
 }
 
 @media (max-width: 767px) {
     #contact .contact-img{
     align-self:center; 
-    height: 200px;
-    padding-left:5%;
-    margin-right:5%;
+    height: 250px;
+    /* padding-left:2%; */
+    /* margin-right:2%; */
 
 
 }

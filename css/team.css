@@ -1,8 +1,9 @@
 .tab {
-  display: flex ;
+  display:inline-table;
   justify-content:center;
-  overflow: hidden;
+  overflow:scroll;
   background-color: white;
+  padding: 10px
 }
 
 #team.row {
