@@ -1334,21 +1334,19 @@ section {
     padding-bottom: 30px;
 }
 
-#contact .contact-img{
-    align-self:center; 
+#contact .contact-img {
+    align-self: center;
     height: 500px;
-    padding-left:1%;
+    padding-left: 1%;
 }
 
 @media (max-width: 767px) {
-    #contact .contact-img{
-    align-self:center; 
-    height: 250px;
-    /* padding-left:2%; */
-    /* margin-right:2%; */
-
-
-}
+    #contact .contact-img {
+        align-self: center;
+        height: 250px;
+        /* padding-left:2%; */
+        /* margin-right:2%; */
+    }
 }
 
 #contact .contact-about h3 {
