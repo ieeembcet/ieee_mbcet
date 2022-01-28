@@ -64,11 +64,32 @@
     background-color: rgb(0, 85, 141);
 }
 
+.float2 {
+    position: fixed;
+    padding: 1.2% 2.4%;
+    bottom: 0%;
+    left: 0;
+    background-color: #00428A;
+    color: #FFF;
+    font-size: larger;
+    border-radius: 0 10px 0 0;
+    text-align: center;
+    /* box-shadow: 2px 2px 3px #999; */
+}
+
+.float2:hover {
+    color: #fff;
+    background-color: #1064be;
+}
+
 @media (max-width: 768px) {
     .icon-bar {
         display: none;
     }
     .float {
+        display: none;
+    }
+    .float2 {
         display: none;
     }
 }
