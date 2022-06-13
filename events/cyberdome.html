@@ -8,6 +8,12 @@
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
+    <!--Tailwind import-->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
     <!-- Favicons -->
     <link
       href="https://ieeesbmbcet.in/images/IEEE%20MBCET%20white.png"
@@ -26,26 +32,26 @@
 
     <!-- Vendor CSS Files -->
     <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      href="../assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link
-      href="assets/vendor/font-awesome/css/font-awesome.min.css"
+      href="../assets/vendor/font-awesome/css/font-awesome.min.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet" />
     <link
-      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      href="../assets/vendor/ionicons/css/ionicons.min.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="../assets/vendor/venobox/venobox.css" rel="stylesheet" />
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-
-    <!-- Events CSS File -->
-    <link rel="stylesheet" href="css/events.css" />
+    <link href="../assets/css/style.css" rel="stylesheet" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -69,21 +75,23 @@
     <header id="header" class="fixed-top">
       <div class="container d-flex justify-content-between">
         <div class="logo">
-          <a href="index.html"
-            ><img src="images/ieeeheader.png" alt="" class="img-fluid"
+          <!-- Uncomment below if you prefer to use an text logo -->
+          <!-- <h1><a href="index.html">NewBiz</a></h1> -->
+          <a href="../index.html"
+            ><img src="../images/ieeeheader.png" alt="" class="img-fluid"
           /></a>
         </div>
 
         <nav class="main-nav d-none d-lg-block">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#about">About Us</a></li>
-            <li><a href="/team.html">Team</a></li>
-            <li class="active"><a href="/events.html">Events</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about">About Us</a></li>
+            <li><a href="../team.html">Team</a></li>
+            <li><a href="../events.html">Events</a></li>
             <li class="drop-down">
               <a href="">More</a>
               <ul>
-                <li><a href="/gallery.html">Gallery</a></li>
+                <li><a href="../gallery.html">Gallery</a></li>
                 <li class="drop-down">
                   <a href="#">Reports</a>
                   <ul>
@@ -107,17 +115,13 @@
                     </li>
                   </ul>
                 </li>
-                <li class="drop-down">
-                  <a href="#">Stories</a>
-                  <ul>
-                    <li><a href="story2021.html">2021 - 22</a></li>
-                    <li><a href="story2020.html">2020 - 21</a></li>
-                  </ul>
-                </li>
-                <li><a href="wallofweb.html">Wall of Web</a></li>
+                <li><a href="../story2020.html">Stories</a></li>
+                <li><a href="../wallofweb.html">Wall of Web</a></li>
+                <!--<li><a href="#">Drop Down 4</a></li>
+                  <li><a href="#">Drop Down 5</a></li>-->
               </ul>
             </li>
-            <li><a href="index.html#contact">Contact Us</a></li>
+            <li><a href="#../index.html#contact">Contact Us</a></li>
           </ul>
         </nav>
         <!-- .main-nav -->
@@ -126,44 +130,71 @@
     <!-- #header -->
 
     <br /><br />
-
-    <!-- ======= Upcomming Events Section ======= -->
-    <section id="why-us" style="background-color: white">
+    <section id="team">
       <div class="container" data-aos="fade-up">
-        <header class="section-header">
-          <h3 style="color: black">Upcoming Events</h3>
-          <p style="color: black">
-            At IEEE MBCET, we believe that participants must get key takeaways
-            from each event and craft each event to be of quality and strive to
-            achieve it through teamwork.
-          </p>
-        </header>
+        <!--Start of the  content-->
 
-        <div class="row row-eq-height justify-content-center">
-          <div class="col-lg-4 mb-4">
-            <div class="card" style="padding-top: 0px">
+        <section class="text-gray-600 body-font">
+          <div
+            class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+          >
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
               <img
-                style="padding-top: 0px"
-                src="assets/Events2022/Cyder dome.jpg"
-                class="card-img-top"
-                alt="..."
+                class="object-cover object-center rounded"
+                alt="event"
+                src="../assets/Events2022/Cyder dome.jpg"
               />
-              <div class="card-body">
-                <h5 class="card-title">𝘾𝙮𝙗𝙚𝙧 𝘿𝙤𝙢𝙚</h5>
-                <p class="card-text">
-                  𝙄𝙀𝙀𝙀 𝙍𝘼𝙎 𝙎𝘽𝘾 𝙈𝘽𝘾𝙀𝙏 presents 💫 𝐑𝐨𝐛𝐨𝐭𝐢𝐜𝐬 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲 𝐌𝐞𝐞𝐭 𝐮𝐩 -𝘈
-                  𝘨𝘭𝘪𝘮𝘱𝘴𝘦 𝘪𝘯𝘵𝘰 𝘵𝘩𝘦 𝘙𝘰𝘣𝘰𝘵𝘪𝘤𝘴 𝘞𝘪𝘯𝘨 𝘰𝘧 𝘒𝘦𝘳𝘢𝘭𝘢 𝘗𝘰𝘭𝘪𝘤𝘦 𝘊𝘺𝘣𝘦𝘳𝘥𝘰𝘮𝘦.
-                </p>
-                <a href="events/cyberdome.html" class="btn btn-primary">
-                  Register
-                </a>
+            </div>
+            <div
+              class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+            >
+              <h1
+                class="title-font sm:text-4xl text-3xl mb-3 font-medium text-gray-900"
+              >
+                Cyber Dome
+              </h1>
+              <p class="mb-8 leading-relaxed" style="text-align: left">
+                The recent advances in the robotics domain 🤖 are the leading
+                edge of our expeditious contemporary world🌍.So it's high time
+                that we gear up for the future.<br />⚡ 𝘛𝘩𝘦 𝘙𝘰𝘣𝘰𝘵𝘪𝘤𝘴 𝘞𝘪𝘯𝘨 of
+                𝘾𝙮𝙗𝙚𝙧 𝘿𝙤𝙢𝙚, the 𝘵𝘦𝘤𝘩𝘯𝘰𝘭𝘰𝘨𝘪𝘤𝘢𝘭 𝘳𝘦𝘴𝘦𝘢𝘳𝘤𝘩 𝘢𝘯𝘥 𝘥𝘦𝘷𝘦𝘭𝘰𝘱𝘮𝘦𝘯𝘵 𝘊𝘦𝘯𝘵𝘳𝘦 𝘰𝘧
+                𝗞𝗲𝗿𝗮𝗹𝗮 𝗣𝗼𝗹𝗶𝗰𝗲 𝗗𝗲𝗽𝗮𝗿𝘁𝗺𝗲𝗻𝘁 👮🏻‍♀in collaboration with 𝙄𝙀𝙀𝙀 𝙍𝘼𝙎 𝙎𝘽𝘾
+                𝙈𝘽𝘾𝙀𝙏 presents 💫 𝐑𝐨𝐛𝐨𝐭𝐢𝐜𝐬 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲 𝐌𝐞𝐞𝐭 𝐮𝐩 <br />
+                -𝘈 𝘨𝘭𝘪𝘮𝘱𝘴𝘦 𝘪𝘯𝘵𝘰 𝘵𝘩𝘦 𝘙𝘰𝘣𝘰𝘵𝘪𝘤𝘴 𝘞𝘪𝘯𝘨 𝘰𝘧 𝘒𝘦𝘳𝘢𝘭𝘢 𝘗𝘰𝘭𝘪𝘤𝘦 𝘊𝘺𝘣𝘦𝘳𝘥𝘰𝘮𝘦.
+              </p>
+              <p style="text-align: left">
+                <br />🔆The session encapsulates: <br />⭕An introduction to
+                𝗖𝘆𝗯𝗲𝗿 𝗗𝗼𝗺𝗲. <br />⭕A platform for 𝗼𝗽𝗲𝗻 𝗱𝗶𝘀𝗰𝘂𝘀𝘀𝗶𝗼𝗻 on 𝘙𝘰𝘣𝘰𝘵𝘪𝘤𝘴
+                where students can contribute their 💡prospective 𝘪𝘥𝘦𝘢𝘴
+              </p>
+              <p style="text-align: left">
+                🗓Date:𝟏𝟓/𝟔/𝟐𝟐 🕑Time:𝟏:𝟑𝟎-𝟐:𝟑𝟎 𝐩𝐦, <br />📍Venue: 𝑽𝒊𝒔𝒗𝒆𝒔𝒗𝒂𝒓𝒂𝒚𝒂
+                𝑯𝒂𝒍𝒍
+              </p>
+              <div class="flex justify-center">
+                <a href="http://bit.ly/3xEDUtX"
+                  ><button
+                    class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
+                  >
+                    Register Now
+                  </button></a
+                >
+                <a href="mailto:ieeesb@mbcet.ac.in"
+                  ><button
+                    class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
+                  >
+                    Contact
+                  </button></a
+                >
               </div>
             </div>
           </div>
-        </div>
+        </section>
+
+        <!--End of the content-->
       </div>
     </section>
-    <!-- End Why Us Section -->
+    <!-- End Team Section -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
@@ -177,7 +208,7 @@
                 dedicated to advancing technology for the benefit of humanity.
               </p>
               <a href="https://mbcet.ac.in/"
-                ><img src="./assets/mbcet.png" style="margin-top: 20px"
+                ><img src="../assets/mbcet.png" style="margin-top: 20px"
               /></a>
             </div>
 
@@ -252,12 +283,12 @@
             </div>
 
             <!--<div class="col-lg-3 col-md-6 footer-newsletter">
-                  <h4>Our Newsletter</h4>
-                  <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-                  <form action="" method="post">
-                    <input type="email" name="email"><input type="submit" value="Subscribe">
-                  </form>
-                </div>-->
+                    <h4>Our Newsletter</h4>
+                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+                    <form action="" method="post">
+                      <input type="email" name="email"><input type="submit" value="Subscribe">
+                    </form>
+                  </div>-->
           </div>
         </div>
       </div>
@@ -267,21 +298,18 @@
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/counterup/counterup.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="assets/vendor/venobox/venobox.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <script src="../assets/vendor/counterup/counterup.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="../assets/vendor/venobox/venobox.min.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
 
     <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-
-    <!-- Team JS Files -->
-    <script type="text/javascript" src="js/events.js"></script>
+    <script src="../assets/js/main.js"></script>
   </body>
 </html>
