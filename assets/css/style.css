@@ -1066,6 +1066,32 @@ section {
     padding: 0 0 0 0;
 }
 
+
+.teamButton{
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    max-width: 300px;
+    background: #007bff;
+    border: 0;
+    border-radius: 10px;
+    padding: 8px 30px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.teamButton:hover {
+    background: #0067d5;
+    cursor: pointer;
+}
+.centerButton{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .portfolio-details .portfolio-description h2 {
         width: 100%;
@@ -1174,6 +1200,7 @@ section {
     
     
 }
+
 
 #team .member {
     margin: auto;
